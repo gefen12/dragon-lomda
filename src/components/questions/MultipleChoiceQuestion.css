@@ -113,6 +113,11 @@
     font-size: 1rem; /* Reduce font size for the question */
     padding: 0.8rem; /* Adjust padding */
   }
+  .submit-button {
+    font-size: 1rem; /* Reduce font size for the submit button */
+    height: 1rem; 
+    transform: translateX(-70%);
+}
 }
 @media (max-height: 615px) {
   .quiz-container {

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import leopard from "./assets/leopard.png";
+import dragon from "./assets/dragon.svg";
+import dragonTale from "./assets/dragon-tale.svg";
 import leopardPattern from "./assets/leopard2.png";
 import tigerTool from "./assets/graphic-tiger-tool.svg";
 import peleLanding from "./assets/pele-landing.png"; // Import the landing photo
@@ -42,8 +43,8 @@ function App() {
       {!showLandingPhoto && ( // Show landing photo if state is false
       <>
       <Header />
-      <img src={leopard} alt="leopard" className="leopard" oncontextmenu="return false;" />
-      <img src={leopardPattern} alt="leopard pattern" className="leopard-pattern" oncontextmenu="return false;" />
+      <img src={dragon} alt="dragon" className="dragon" oncontextmenu="return false;" />
+      <img src={dragonTale} alt="dragon tale" className="dragon-tale" oncontextmenu="return false;" />
       </>
       )}
       {showLandingPhoto ? ( // Show landing photo if state is true

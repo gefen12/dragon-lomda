@@ -25,7 +25,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   overflow-y:  hidden;
-  background-color: #D7AC87;
+  background-color: #FFBEE7;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,22 +54,21 @@ body {
   height: 50px;
   object-fit: contain;
 }
-.leopard {
+.dragon {
   position:fixed;
-  left:0vw;
-  top:5vh;
-  width: 80%;
-  height: 50vh;
+  top: 5vh;
+  left: 0vw;
   z-index: 1;
 }
-.leopard-pattern {
+.dragon-tale {
   position: fixed;
-  bottom:0vh;
-  left: 0vw;
-  width: 100%;
-  height: 60vh;
-  z-index: 0;
+  right: 0vw;
+  bottom: 0vh;
+  width: 50%;
+  z-index: 1;
 }
+
+
 
 
 
@@ -89,7 +88,7 @@ body {
 .startBtn {
   text-align: center;
   border-radius: 5px;
-  color: #b34b06d8;
+  color: #FFBEE7;
   background: white;
   padding: 2%;
   font-size: 1.2rem;
@@ -140,7 +139,7 @@ body {
   padding: 0.5rem;
   width: 4rem;
   border-radius: 10px;
-  color: #b34b06d8;
+  color: #FFBEE7;
   font-size: 1.2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -157,13 +156,11 @@ body {
 
 /* Breakpoint for landscape mode on small screens */
 @media (orientation: landscape) {
-  .leopard {
-    left:0vw;
-    width: 50%;
-    height: 80vh;
+  .dragon-tale {
+  height: 50vh;
+  right: -20vw;
   }
-  .leopard-pattern {
-    width: 100%;
-    height: 75vh;
+  .dragon {
+    width: 20%;
   }
 }
